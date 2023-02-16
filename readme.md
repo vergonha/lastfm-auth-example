@@ -79,7 +79,7 @@ Here you must organize your keys and methods to authenticate your session.
 ```javascript
 let body = new URLSearchParams({
 
-    method: "auth.getSession()"
+    method: "auth.getSession()",
     token: "STEP 3 TOKEN",
     api_key: "YOUR API KEY",
     api_sig: md5((`api_key${keys.api_key}method${keys.method}token${keys.token}${keys.secret_key}`))
