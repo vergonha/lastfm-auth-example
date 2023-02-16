@@ -85,7 +85,7 @@ fetch("http://ws.audioscrobbler.com/2.0/?" + body)
         let name = reName.exec(data)[1]
 
         getData(name, keys.api_key).then(([user, topTracks, topArtists]) => {
-            console.log(user, topTracks)
+            
             addElementToHTML("main-title", "h2", `${user.user.name} Dashboard`, "main-title__title")
 
             let parent = document.getElementById("main-title")
@@ -108,7 +108,7 @@ fetch("http://ws.audioscrobbler.com/2.0/?" + body)
                     addElementToHTML("main-content__top-tracks", "p", `${track.name} - ${track.artist.name}`, "main-content__top-tracks__track")
                 }
             )
-            console.log(topArtists)
+            
             addElementToHTML("main-content__top-artists", "h3", "Top Five Artists: ", "main-content__top-artists__title")
             topArtists.topartists.artist.forEach(
                 artist => {
