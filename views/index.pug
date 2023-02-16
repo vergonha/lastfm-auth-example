@@ -1,0 +1,18 @@
+html
+    head
+        link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+        title Authentication
+    style 
+        include ../public/stylesheets/index.css
+    body 
+        script(type="text/javascript")
+            include ../public/javascript/index.js
+        div(class="container")
+            div(class="main-title")
+                h3 LastFM Auth Flow 🚩 
+                center 
+                    h4 Using ExpressJS 👋
+                div(class="login-area", onclick="auth();")
+                    a(class="login-area__login") Login 
+                    i.fa.fa-lastfm
+            
