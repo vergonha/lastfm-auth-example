@@ -4,7 +4,7 @@ html
             include ../public/stylesheets/callback.css
     body 
         div(class="container")
-            div(class="loading")
+            div(id="loading")
                 div(class="spinner")
                 p Loading...
         script(type="text/javascript")
@@ -14,4 +14,9 @@ html
             div(id="main-content__user-info")
             div(id="main-content__top-artists")
             div(id="main-content__top-tracks")
+            div(id="main-content__photo-collage")
+                h3 Top Tracks (7 Days)
+                div(id="main-collage")
+                    div(class="row")
+                        div(class="pic")
 

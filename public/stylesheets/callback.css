@@ -41,8 +41,30 @@ body {
     padding: 10px;
     margin: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-};
+}
+
+#main-content__user-info, #main-content__top-artists,  #main-content__top-tracks, #main-content__photo-collage{
+  width: 25%;
+  margin: 10px;
+}
+
+#main-content__photo-collage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+}
+
+#main-collage {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.pic img{
+  width: 55px;
+}
 
 .container {
     position: fixed;
@@ -51,13 +73,14 @@ body {
 }
 
 
-.loading {
+#loading {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+    background-color: #1d1d1d;
+}
   
 .spinner {
   border: 8px solid white;
