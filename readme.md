@@ -5,7 +5,7 @@ This repository is an example and tutorial of how to authenticate and validate y
 
 
 
-## Referece
+## Reference
 
  - [LastFM Official API Documentation](https://www.last.fm/api/)
  - [LastFM Support Forum](https://support.last.fm/)
