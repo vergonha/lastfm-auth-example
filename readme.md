@@ -34,7 +34,7 @@ You can get it at: https://www.last.fm/api/account/create.
 
 **1 - Get an API Key**
 
-You can create a LastFM account and get your key from [this](https://www.last.fm/api/account/create) link. You can see your keys [here](https://www.last.fm/api/account/).
+You can create a LastFM account and get your key from [this](https://www.last.fm/api/account/create) link. You can see your keys [here](https://www.last.fm/api/accounts/).
 
 **2 - Prepare your request**
 
